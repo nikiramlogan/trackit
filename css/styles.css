@@ -1,0 +1,43 @@
+body {
+  background-color: #00BFF3;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 40px;
+  font-family: 'Roboto';
+}
+
+h1 {
+  font-family: 'Roboto', medium;
+}
+
+p {
+  font-family: 'Roboto';
+}
+
+.menu-items {
+  float: right;
+  margin: 30px;
+  margin-top: 35px;
+}
+
+.logo {
+  width: 11%;
+  margin: 30px;
+}
+
+.white-text {
+  color: white;
+}
+
+.indent {
+  margin: 0 140px;
+  padding: 0 40px;
+}
+
+.main-text {
+  text-align: center;
+}
