@@ -18,6 +18,22 @@ p {
   font-family: 'Roboto';
 }
 
+input[type=text]:focus {
+  outline: none;
+  border-color: #00BFF3;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
+input[type=number]:focus {
+  outline: none;
+  border-color: #00BFF3;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+}
+
 .menu-items {
   float: right;
   margin: 30px;
@@ -33,7 +49,7 @@ p {
   color: white;
 }
 
-.indent {
+.site-indent {
   margin: 0 140px;
   padding: 0 40px;
 }
@@ -43,16 +59,67 @@ p {
   margin: 50px 0;
 }
 
-.box {
-  height: 650px;
+.white-box {
+  height: 380px;
   width: 300px;
   background-color: white;
   display: inline-block;
   border-radius: 25px;
-  margin: 50px 30px;
+  margin: 50px 22px;
+  vertical-align: top;
 }
 
 .box-container {
   margin: 50px auto;
   text-align: center;
+}
+
+.box-text {
+  color: #6C7071;
+  text-align: left;
+  margin-left: 35px;
+  margin-top: 30px;
+}
+
+.line {
+  border-top: 1px solid #00BFF3;
+  width: 228px;
+}
+
+.field-container {
+  margin-top: 22px;
+}
+
+.field {
+  color: #B9B5B5;
+  padding: 10px;
+  height: 36px;
+  width: 228px;
+  border-color: #B9B5B5;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  vertical-align: top;
+  margin: 6px 30px;
+  box-sizing: border-box;
+}
+
+.tile-container {
+  margin-top: 22px;
+}
+
+.tile {
+  background-color: #00BFF3;
+  padding: 10px;
+  margin: 5px 3px;
+  height: 63px;
+  width: 70px;
+  border-radius: 10px;
+  vertical-align: top;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+::placeholder {
+  color: #B9B5B5;
 }
